@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://cai1t10376jgt"]
+
+[ext_resource type="Script" uid="uid://o4vmsskhaynw" path="res://player.gd" id="1_iem1u"]
+[ext_resource type="Texture2D" uid="uid://bkgens0ks61sm" path="res://icon.svg" id="2_fjkrq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iem1u"]
+size = Vector2(128, 128)
+
+[node name="ala_de_testes" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(662, 341)
+slide_on_ceiling = false
+script = ExtResource("1_iem1u")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_fjkrq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_iem1u")
