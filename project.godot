@@ -15,6 +15,10 @@ run/main_scene="res://Cenas/ala_de_testes.tscn"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+player_movement="*res://basecharacter.gd"
+
 [input]
 
 move_right={
