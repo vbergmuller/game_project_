@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jax225rewjsl"
-path="res://.godot/imported/Tile_chao_placeholder.png-c45e0120ac86e90b98edbe6310e88e2e.ctex"
+uid="uid://bnncei775v51r"
+path="res://.godot/imported/crosshair_placeholder.png-a35700d2253f0199f743db0d68184ad0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Tile_chao_placeholder.png"
-dest_files=["res://.godot/imported/Tile_chao_placeholder.png-c45e0120ac86e90b98edbe6310e88e2e.ctex"]
+source_file="res://Sprites/crosshair_placeholder.png"
+dest_files=["res://.godot/imported/crosshair_placeholder.png-a35700d2253f0199f743db0d68184ad0.ctex"]
 
 [params]
 

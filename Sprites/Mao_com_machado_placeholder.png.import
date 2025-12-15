@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c06ypkqv6286u"
-path="res://.godot/imported/Mao_com_lancachamas_placeholder.png-07f9f37744dc3e1a2353fdc2f82c1d9e.ctex"
+uid="uid://cyjrysgb5hvt1"
+path="res://.godot/imported/Mao_com_machado_placeholder.png-36bda360bfb5250b86d1b25d590ab578.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Mao_com_lancachamas_placeholder.png"
-dest_files=["res://.godot/imported/Mao_com_lancachamas_placeholder.png-07f9f37744dc3e1a2353fdc2f82c1d9e.ctex"]
+source_file="res://Sprites/Mao_com_machado_placeholder.png"
+dest_files=["res://.godot/imported/Mao_com_machado_placeholder.png-36bda360bfb5250b86d1b25d590ab578.ctex"]
 
 [params]
 

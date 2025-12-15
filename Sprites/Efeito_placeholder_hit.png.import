@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnw37t84l5j6o"
-path="res://.godot/imported/Ente_variacao_1.png-93870786c9e92ebe5e04ea90cbe2ec63.ctex"
+uid="uid://dthxhxersliqa"
+path="res://.godot/imported/Efeito_placeholder_hit.png-45da281b6989f7872688b316a60e54ba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Ente_variacao_1.png"
-dest_files=["res://.godot/imported/Ente_variacao_1.png-93870786c9e92ebe5e04ea90cbe2ec63.ctex"]
+source_file="res://Sprites/Efeito_placeholder_hit.png"
+dest_files=["res://.godot/imported/Efeito_placeholder_hit.png-45da281b6989f7872688b316a60e54ba.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cyjrysgb5hvt1"
-path="res://.godot/imported/Mao_com_machado_placeholder.png-85d5a590090eda262ffd3e7e5d3b6a01.ctex"
+uid="uid://bnw37t84l5j6o"
+path="res://.godot/imported/Ente_variacao_1.png-950808dca20d74b494bb4be4ff2ad8d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Mao_com_machado_placeholder.png"
-dest_files=["res://.godot/imported/Mao_com_machado_placeholder.png-85d5a590090eda262ffd3e7e5d3b6a01.ctex"]
+source_file="res://Sprites/Ente_variacao_1.png"
+dest_files=["res://.godot/imported/Ente_variacao_1.png-950808dca20d74b494bb4be4ff2ad8d1.ctex"]
 
 [params]
 

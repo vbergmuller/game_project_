@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5mixkfoyw84k"
-path="res://.godot/imported/Animacao_placeholder-lumberjack.png-1a6e7c3bb80f5ef75eade3d10ae90e46.ctex"
+path="res://.godot/imported/Animacao_placeholder-lumberjack.png-da700750325bd2dacc834c5dcaaba3b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Art/Animacao_placeholder-lumberjack.png"
-dest_files=["res://.godot/imported/Animacao_placeholder-lumberjack.png-1a6e7c3bb80f5ef75eade3d10ae90e46.ctex"]
+source_file="res://Sprites/Animacao_placeholder-lumberjack.png"
+dest_files=["res://.godot/imported/Animacao_placeholder-lumberjack.png-da700750325bd2dacc834c5dcaaba3b9.ctex"]
 
 [params]
 
