@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://loykvfsj1xk0"]
+
+[ext_resource type="Script" uid="uid://gyrsoulj10xk" path="res://Scripts/flamethrower.gd" id="1_se3h7"]
+[ext_resource type="Texture2D" uid="uid://c06ypkqv6286u" path="res://Sprites/Mao_com_lancachamas_placeholder.png" id="2_apddd"]
+
+[node name="flamethrower" type="CharacterBody2D"]
+script = ExtResource("1_se3h7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(24, 0)
+texture = ExtResource("2_apddd")
+flip_h = true

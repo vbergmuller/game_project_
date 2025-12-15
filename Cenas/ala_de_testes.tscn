@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://cai1t10376jgt"]
+[gd_scene load_steps=6 format=3 uid="uid://cai1t10376jgt"]
 
 [ext_resource type="PackedScene" uid="uid://cr1y4d0ctwuen" path="res://Cenas/Player1.tscn" id="1_bqvyn"]
 [ext_resource type="Texture2D" uid="uid://jax225rewjsl" path="res://Sprites/Tile_chao_placeholder.png" id="2_iem1u"]
+[ext_resource type="PackedScene" uid="uid://loykvfsj1xk0" path="res://Cenas/flamethrower.tscn" id="4_1yl6s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iem1u"]
 texture = ExtResource("2_iem1u")
@@ -28,3 +29,5 @@ layer_1/name = "Parede"
 layer_1/tile_data = PackedInt32Array(9, 0, 0, 65545, 0, 0, 131081, 0, 0, 196617, 0, 0, 262153, 0, 0, 327689, 0, 0, 393225, 0, 0, 458761, 0, 0, 524297, 0, 0, -65527, 0, 0, -131063, 0, 0, -196599, 0, 0, -262135, 0, 0, -327671, 0, 0, -393207, 0, 0, -458743, 0, 0, -524279, 0, 0, 589832, 0, 0, 589831, 0, 0, 589830, 0, 0, 589829, 0, 0, 589828, 0, 0, 589827, 0, 0, 589826, 0, 0, 589825, 0, 0, 589824, 0, 0, 655359, 0, 0, 655358, 0, 0, 655357, 0, 0, 655356, 0, 0, 655355, 0, 0, 655354, 0, 0, 655353, 0, 0, 655352, 0, 0, 589815, 0, 0, 524279, 0, 0, 458743, 0, 0, 393207, 0, 0, 327671, 0, 0, 262135, 0, 0, 196599, 0, 0, 131063, 0, 0, 65527, 0, 0, -9, 0, 0, -65545, 0, 0, -131081, 0, 0, -196617, 0, 0, -262153, 0, 0, -327689, 0, 0, -393225, 0, 0, -458761, 0, 0, -524296, 0, 0, -524295, 0, 0, -524294, 0, 0, -524293, 0, 0, -524292, 0, 0, -524291, 0, 0, -524290, 0, 0, -524289, 0, 0, -589824, 0, 0, -589823, 0, 0, -589822, 0, 0, -589821, 0, 0, -589820, 0, 0, -589819, 0, 0, -589818, 0, 0, -589817, 0, 0, -589816, 0, 0)
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_bqvyn")]
+
+[node name="flamethrower" parent="CharacterBody2D" instance=ExtResource("4_1yl6s")]

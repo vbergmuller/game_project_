@@ -14,9 +14,9 @@ config/name="Poda-se arvores"
 run/main_scene="res://Cenas/ala_de_testes.tscn"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
-[autoload]
+[display]
 
-player_movement="*res://basecharacter.gd"
+mouse_cursor/custom_image="uid://bnncei775v51r"
 
 [input]
 
@@ -40,3 +40,7 @@ move_down={
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":83,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
 ]
 }
+
+[rendering]
+
+textures/custom_image=""

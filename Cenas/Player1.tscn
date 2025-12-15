@@ -1,6 +1,6 @@
 [gd_scene load_steps=21 format=3 uid="uid://cr1y4d0ctwuen"]
 
-[ext_resource type="Script" uid="uid://o4vmsskhaynw" path="res://Scripts/player.gd" id="1_5pxne"]
+[ext_resource type="Script" path="res://Scripts/player.gd" id="1_81scw"]
 [ext_resource type="Texture2D" uid="uid://5mixkfoyw84k" path="res://Sprites/Animacao_placeholder-lumberjack.png" id="2_7k5wa"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fjkrq"]
@@ -133,7 +133,7 @@ size = Vector2(10, 27)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 slide_on_ceiling = false
-script = ExtResource("1_5pxne")
+script = ExtResource("1_81scw")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
