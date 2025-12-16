@@ -8,6 +8,7 @@ func get_input(speed, animatedsprite):
 	
 	if velocity:
 		animatedsprite.play("animation_movement")
+		animatedsprite.speed_scale = speed / 85 # w speed
 	else:
 		animatedsprite.play("animation_idle")
 	

@@ -33,5 +33,5 @@ layer_1/tile_data = PackedInt32Array(9, 0, 0, 65545, 0, 0, 131081, 0, 0, 196617,
 
 [node name="Player" parent="." instance=ExtResource("1_bqvyn")]
 
-[node name="Enemy" parent="." instance=ExtResource("4_1yl6s")]
+[node name="CharacterBody2D2" parent="." instance=ExtResource("4_1yl6s")]
 position = Vector2(93, 68)

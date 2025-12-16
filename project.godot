@@ -14,10 +14,6 @@ config/name="Poda-se arvores"
 run/main_scene="res://Cenas/ala_de_testes.tscn"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
-[autoload]
-
-player_movement="*res://basecharacter.gd"
-
 [input]
 
 move_right={
