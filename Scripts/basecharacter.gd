@@ -15,6 +15,7 @@ func get_input(speed, animatedsprite):
 		animatedsprite.speed_scale = speed / 85 # w speed
 	else:
 		animatedsprite.play("animation_idle")
+		animatedsprite.speed_scale = 1
 
 	if _relative.x > 0:
 		animatedsprite.flip_h = true

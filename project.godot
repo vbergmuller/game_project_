@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Poda-se arvores"
-run/main_scene="res://Cenas/ala_de_testes.tscn"
+run/main_scene="uid://dvy2xfxpq07w6"
 config/features=PackedStringArray("4.5", "Forward Plus")
 
 [display]
@@ -43,4 +43,5 @@ move_down={
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 textures/custom_image=""

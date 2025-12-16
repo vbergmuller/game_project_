@@ -12,6 +12,7 @@ func follow_player(speed, animatedsprite):
 		animatedsprite.speed_scale = speed / 85 # w speed
 	else:
 		animatedsprite.play("animation_idle")
+		animatedsprite.speed_scale = 1
 	
 	if direction.x > 0:
 		animatedsprite.flip_h = true

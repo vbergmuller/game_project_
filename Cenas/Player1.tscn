@@ -1,6 +1,6 @@
 [gd_scene load_steps=21 format=3 uid="uid://cr1y4d0ctwuen"]
 
-[ext_resource type="Script" path="res://Scripts/player.gd" id="1_81scw"]
+[ext_resource type="Script" uid="uid://o4vmsskhaynw" path="res://Scripts/player.gd" id="1_81scw"]
 [ext_resource type="Texture2D" uid="uid://5mixkfoyw84k" path="res://Sprites/Animacao_placeholder-lumberjack.png" id="2_7k5wa"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fjkrq"]
@@ -147,4 +147,8 @@ position = Vector2(0, 1.5)
 shape = SubResource("RectangleShape2D_r1v58")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(3, 3)
+zoom = Vector2(2.5, 2.5)
+limit_left = -416
+limit_top = -471
+limit_right = 448
+limit_bottom = 480

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dep4k7p80yvpg"]
 
-[ext_resource type="Script" uid="uid://c5ov12qtp3kc5" path="res://ax.gd" id="1_krsf0"]
+[ext_resource type="Script" uid="uid://c5ov12qtp3kc5" path="res://Scripts/ax.gd" id="1_krsf0"]
 [ext_resource type="Texture2D" uid="uid://bevsan7omou76" path="res://Sprites/machado_flipped.png" id="2_3ou26"]
 
 [node name="ax" type="CharacterBody2D"]

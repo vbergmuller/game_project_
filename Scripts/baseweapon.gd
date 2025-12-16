@@ -8,4 +8,3 @@ func lookat(sprite):
 		sprite.flip_v = true
 	else:
 		sprite.flip_v = false
-	
