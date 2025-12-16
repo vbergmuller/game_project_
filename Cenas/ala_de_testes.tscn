@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://c4v22isf6hcjg" path="res://Cenas/Enemy1.tscn" id="4_1yl6s"]
 
 [sub_resource type="GDScript" id="GDScript_fjkrq"]
+[ext_resource type="PackedScene" uid="uid://loykvfsj1xk0" path="res://Cenas/flamethrower.tscn" id="4_1yl6s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iem1u"]
 texture = ExtResource("2_iem1u")
@@ -35,3 +36,5 @@ layer_1/tile_data = PackedInt32Array(9, 0, 0, 65545, 0, 0, 131081, 0, 0, 196617,
 
 [node name="Enemy" parent="." instance=ExtResource("4_1yl6s")]
 position = Vector2(93, 68)
+
+[node name="flamethrower" parent="CharacterBody2D" instance=ExtResource("4_1yl6s")]
